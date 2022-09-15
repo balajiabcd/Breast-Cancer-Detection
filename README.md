@@ -9,7 +9,7 @@ Applying Different ML Classification models
 2. Pandas  
 3. Matplotlib  
 4. Seaborn  
-5.SciKit Learn   
+5. SciKit Learn   
 
 
 Dataset link:
