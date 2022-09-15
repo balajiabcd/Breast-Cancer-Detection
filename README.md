@@ -14,10 +14,8 @@ Applying Different ML Classification models
 ## Data Set:  
   
 You can Download the data set used in this project here at this link.  
-"https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset?select=breast-cancer.csv"   
+"https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset?select=breast-cancer.csv"  
 
-
-              
-              
-              
- fvmng
+## Flatform:  
+  
+For this project I used Google Colab. Which you can found here: https://colab.research.google.com/
