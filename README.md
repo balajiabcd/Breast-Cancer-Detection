@@ -8,7 +8,7 @@ Applying Different ML Classification models
 1. Numpy  
 2. Pandas  
 3. Matplotlib  
-4. Seaborn
+4. Seaborn  
 5.SciKit Learn   
 
 
