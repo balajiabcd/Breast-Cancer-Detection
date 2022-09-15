@@ -3,7 +3,7 @@ Applying Different ML Classification models
 
 
 
-## Libraries  
+## Libraries:  
   
 1. Numpy  
 2. Pandas  
@@ -11,9 +11,12 @@ Applying Different ML Classification models
 4. Seaborn  
 5. SciKit Learn   
 
+## Data Set:  
+  
+You can Download the data set used in this project here at this link.  
+"https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset?select=breast-cancer.csv"   
 
-Dataset link:
-              "https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset?select=breast-cancer.csv"   
+
               
               
               
