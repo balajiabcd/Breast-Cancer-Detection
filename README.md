@@ -52,6 +52,7 @@ Here to get the accuracy of classification model we used MAE(which is one of eva
 
 After trining and Deploying the different classification models and one regression model:  
 Random Forest model with n_estimators = 400, criterion = "entropy", gave best results with 95.61% accuracy of detection.  
+![Model](https://github.com/balajiabcd/Breast-Cancer-Detection/blob/main/randomforest%20model.png)
 
 
 
