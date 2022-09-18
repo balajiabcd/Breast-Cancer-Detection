@@ -38,15 +38,17 @@ With the scaterplot between the variables, we can see that it will be easy to se
 
 
 
+## Note:  
+Here to get the accuracy of classification model we used MAE(which is one of evaluation matrics of Regression model) as an indirect way of finding acuuracy of model.  
+
+
+
+
 ## Model Result:  
 
 
 After trining and Deploying the different classification models and one regression model:  
 Random Forest model with n_estimators = 400, criterion = "entropy", gave best results with 95.61% accuracy of detection.  
-
-
-## Note:  
-Here to get the accuracy of classification model we used MAE(which is one of evaluation matrics of Regression model) as an indirect way of finding acuuracy of model.
 
 
 
