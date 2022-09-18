@@ -33,4 +33,25 @@ We can see that there are strong correlations between some of these variables.
 Hence, we can remove these corrilated variables from our model.  
 
 With the histplots between the variables we can see the there is clear distinction between data of patients who has cancer and data of patients who don't have cancer.  
+
 With the scaterplot between the variables, we can see that it will be easy to separate the patients with cancer from those of without cancer.  
+
+
+
+## Model Result:  
+
+
+After trining and Deploying the different classification models and one regression model:  
+Random Forest model with n_estimators = 400, criterion = "entropy", gave best results with 95.61% accuracy of detection.  
+
+
+## Note:  
+Here to get the accuracy of classification model we used MAE(which is one of evaluation matrics of Regression model) as an indirect way of finding acuuracy of model.
+
+
+
+
+
+
+
+
