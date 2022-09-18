@@ -28,14 +28,17 @@ For this project I used Google Colab. Which you can found here: https://colab.re
 
 Data sonsists of 569 patients diagnosis results, test data. Out of these 212 patients are diagnosed with cancer. Data consists of 30 dependent variables and one dependent variable.  
 
-We can see that there are strong correlations between some of these variables.  
-![Heatmap-before-processing](https://github.com/balajiabcd/Breast-Cancer-Detection/blob/main/Heatmap-before-processing.png)
+We can see that there are strong correlations between some of these variables using Heatmap.  
+![Heatmap-before-processing](https://github.com/balajiabcd/Breast-Cancer-Detection/blob/main/Heatmap-before-processing.png)  
+
 Hence, we can remove these corrilated variables from our model.  
+![Heatmap-after-processing](https://github.com/balajiabcd/Breast-Cancer-Detection/blob/main/Heatmap-after-processing.png)  
 
 With the histplots between the variables we can see the there is clear distinction between data of patients who has cancer and data of patients who don't have cancer.  
+![Histplot](https://github.com/balajiabcd/Breast-Cancer-Detection/blob/main/Histplot.png)  
 
 With the scaterplot between the variables, we can see that it will be easy to separate the patients with cancer from those of without cancer.  
-
+![Scattereplot](https://github.com/balajiabcd/Breast-Cancer-Detection/blob/main/Scatterplot.png)
 
 
 ## Note:  
