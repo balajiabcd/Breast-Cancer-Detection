@@ -139,9 +139,3 @@ Several machine learning models were tested:
 
 
 
-
-
-
-With the scaterplot between the variables, we can see that it will be easy to separate the patients with cancer from those of without cancer.  
-![Scattereplot](https://github.com/balajiabcd/Breast-Cancer-Detection/blob/main/Scatterplot.png)
-
