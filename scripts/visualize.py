@@ -9,6 +9,6 @@ def plot_correlation(df):
 
 def plot_class_distribution(df):
     plt.figure(figsize=(6, 4))
-    sns.countplot(x="target", data=df)
+    sns.countplot(x="diagnosis", data=df)
     plt.title("Class Distribution")
     plt.show()

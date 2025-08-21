@@ -1,16 +1,17 @@
 from scripts.data_utils import load_data, preprocess_data
+from scripts.model import train_and_evaluate
+from scripts.visualize import plot_correlation, plot_class_distribution
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report, accuracy_score
-
-def train_and_evaluate(model, X_train, X_test, y_train, y_test):
-    model.fit(X_train, y_train)
-    y_pred = model.predict(X_test)
-    print(f"Accuracy: {accuracy_score(y_test, y_pred):.4f}")
-    print(classification_report(y_test, y_pred))
 
 if __name__ == "__main__":
+    # Load and preprocess data
     df = load_data("scripts/breast-cancer.csv")
     X_train, X_test, y_train, y_test = preprocess_data(df)
 
+    # Visualizations
+    plot_class_distribution(df)
+    plot_correlation(df)
+
+    # Train and evaluate model
     rf = RandomForestClassifier(n_estimators=100, random_state=42)
     train_and_evaluate(rf, X_train, X_test, y_train, y_test)
