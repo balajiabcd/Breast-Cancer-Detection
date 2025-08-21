@@ -1,9 +1,3 @@
-# Breast-Cancer-Detection
-Applying Different ML Classification models
-
-
-
-
 # 🧬 Breast Cancer Detection using Machine Learning
 
 Breast cancer is one of the most common forms of cancer worldwide. Early diagnosis plays a key role in effective treatment and patient survival.  
@@ -48,7 +42,7 @@ The aim of this project is to simulate how a **data scientist** would approach b
 
 ## 📊 Dataset
 
-The dataset is the **Breast Cancer Wisconsin (Diagnostic) Data Set**, available from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)).
+The dataset is the **Breast Cancer Wisconsin (Diagnostic) Data Set**, available from the [Kaggle](https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset?select=breast-cancer.csv)).
 
 - **Size**: 569 samples, 30 numerical features  
 - **Features**: tumor properties derived from digitized images (radius, texture, smoothness, compactness, etc.)  
