@@ -6,26 +6,12 @@ This project demonstrates the development of a **machine learning pipeline** for
 The work goes beyond writing code: it shows **data analysis, feature engineering, model building, evaluation, and professional project structuring**.  
 It is designed as a **portfolio project** to showcase practical knowledge of **Data Science, Machine Learning, and Software Engineering best practices**.
 
----
 
-## 📖 Table of Contents
-- [Motivation](#motivation)
-- [Dataset](#dataset)
-- [Objectives](#objectives)
-- [Methodology](#methodology)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Modeling Approach](#modeling-approach)
-- [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [How to Run](#how-to-run)
-- [Results](#results)
-- [Challenges & Learnings](#challenges--learnings)
-- [Future Improvements](#future-improvements)
-- [License](#license)
-- [Contact](#contact)
 
----
+
+
+
+
 
 ## 💡 Motivation
 
@@ -38,13 +24,19 @@ The aim of this project is to simulate how a **data scientist** would approach b
 5. Evaluating results with meaningful metrics  
 6. Packaging the project in a way that is **reproducible, transparent, and professional**  
 
----
+
+
+
+
+
+
 
 ## 📊 Dataset
 
 The dataset is the **Breast Cancer Wisconsin (Diagnostic) Data Set**, available from the [Kaggle](https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset?select=breast-cancer.csv)).
 
-- **Size**: 569 samples, 30 numerical features  
+Data sonsists of 569 patients diagnosis results, test data. Out of these 212 patients are diagnosed with cancer. Data consists of 30 dependent variables and one dependent variable. 
+
 - **Features**: tumor properties derived from digitized images (radius, texture, smoothness, compactness, etc.)  
 - **Target Variable**:  
   - `M` → Malignant  
@@ -52,7 +44,11 @@ The dataset is the **Breast Cancer Wisconsin (Diagnostic) Data Set**, available 
 
 > The dataset is balanced and widely used for benchmarking binary classification algorithms.
 
----
+
+
+
+
+
 
 ## 🎯 Objectives
 
@@ -64,7 +60,12 @@ The dataset is the **Breast Cancer Wisconsin (Diagnostic) Data Set**, available 
 - Organize the project into a **production-ready structure** with scripts, tests, and documentation  
 - Showcase **best practices** for GitHub portfolio projects  
 
----
+
+
+
+
+
+
 
 ## 🔬 Methodology
 
@@ -97,7 +98,11 @@ The workflow for this project follows a standard **machine learning lifecycle**:
    - Project structured into scripts + notebook  
    - Future extension for Streamlit/Flask app  
 
----
+
+
+
+
+
 
 ## 📈 Exploratory Data Analysis
 
@@ -111,7 +116,12 @@ Example plots (stored in `/images`):
 - Correlation heatmap  
 - Pairplot of selected features  
 
----
+
+
+
+
+
+
 
 ## 🤖 Modeling Approach
 
@@ -126,87 +136,12 @@ Several machine learning models were tested:
 
 **Best Model:** Random Forest (high accuracy and balanced precision/recall)  
 
----
-
-## 🗂 Project Structure
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-## Libraries Used:  
-  
-1. Numpy  
-2. Pandas  
-3. Matplotlib  
-4. Seaborn  
-5. SciKit Learn   
-
-## Data Set:  
-  
-You can Download the data set used in this project here at this link.  
-
-"https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset?select=breast-cancer.csv"  
-
-
-
-## Flatform:  
-  
-For this project I used Google Colab. Which you can found here: https://colab.research.google.com/  
-
-
-
-## About data:  
-
-Data sonsists of 569 patients diagnosis results, test data. Out of these 212 patients are diagnosed with cancer. Data consists of 30 dependent variables and one dependent variable.  
-
-We can see that there are strong correlations between some of these variables using Heatmap.  
-
-![Heatmap-before-processing](https://github.com/balajiabcd/Breast-Cancer-Detection/blob/main/Heatmap-before-processing.png)  
-
-Hence, we can remove these corrilated variables from our model.  
-
-![Heatmap-after-processing](https://github.com/balajiabcd/Breast-Cancer-Detection/blob/main/Heatmap-after-processing.png)  
-
-With the histplots between the variables we can see the there is clear distinction between data of patients who has cancer and data of patients who don't have cancer.  
-
-![Histplot](https://github.com/balajiabcd/Breast-Cancer-Detection/blob/main/Histplot.png)  
 
 With the scaterplot between the variables, we can see that it will be easy to separate the patients with cancer from those of without cancer.  
-
 ![Scattereplot](https://github.com/balajiabcd/Breast-Cancer-Detection/blob/main/Scatterplot.png)
-
-
-## Note:  
-Here to get the accuracy of classification model we used MAE(which is one of evaluation matrics of Regression model) as an indirect way of finding acuuracy of model.  
-
-
-
-
-## Model Result:  
-
-
-After trining and Deploying the different classification models and one regression model:  
-Random Forest model with n_estimators = 400, criterion = "entropy", gave best results with 95.61% accuracy of detection.  
-
-![Model](https://github.com/balajiabcd/Breast-Cancer-Detection/blob/main/randomforest%20model.png)
-
-
-
-
-
-
-
 
