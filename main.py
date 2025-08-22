@@ -1,7 +1,7 @@
 from src.data_utils import load_data, preprocess_data
 from src.model import train_and_evaluate
 from src.visualize import plot_correlation, plot_class_distribution
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
 
 if __name__ == "__main__":
     # Load and preprocess data
@@ -13,8 +13,8 @@ if __name__ == "__main__":
     plot_correlation(df)
 
     # Train and evaluate model
-    rf = RandomForestClassifier(n_estimators=100, random_state=42)
-    train_and_evaluate("rf", rf, X_train, X_test, y_train, y_test)
+    svc1 = SVC(random_state=2)
+    train_and_evaluate("final_model", svc1, X_train, X_test, y_train, y_test)
 
     print("hello world")
 

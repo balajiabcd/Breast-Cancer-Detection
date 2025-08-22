@@ -175,31 +175,6 @@ All models were trained and evaluated. Key metrics:
 
 
 
-## 🚀 How to Run the Project
-
-```bash
-# 1. Clone repo
-git clone https://github.com/balajiabcd/Breast-Cancer-Detection.git
-cd Breast-Cancer-Detection
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run main pipeline
-python main.py
-
-# 4. Run all tests
-pytest -v 
-
-
-
-
-
-
-
-
-
-
 
 ## 🚀 Future Work  
 
@@ -207,6 +182,9 @@ pytest -v
 - Experiment with **deep learning models** (e.g., neural networks)  
 - Apply **feature selection** or **PCA** to optimize performance  
 - Hyperparameter tuning with **GridSearchCV** or **Optuna**  
+
+
+
 
 
 
@@ -224,4 +202,29 @@ pytest -v
 ✨ This project shows how machine learning can transform healthcare by making diagnosis **faster, data-driven, and reliable**.  
 
   
+
+
+
+
+
+
+
+
+
+## 🚀 How to Run the Project
+
+```bash
+# 1. Clone repo
+git clone https://github.com/balajiabcd/Breast-Cancer-Detection.git
+cd Breast-Cancer-Detection
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run main pipeline
+python main.py
+
+# 4. Run all tests
+pytest -v 
+
 
