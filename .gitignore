@@ -40,3 +40,8 @@ data/
 build/
 dist/
 *.egg-info/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
