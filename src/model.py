@@ -1,4 +1,4 @@
-from data_utils import load_data, preprocess_data
+from src.data_utils import load_data, preprocess_data
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
