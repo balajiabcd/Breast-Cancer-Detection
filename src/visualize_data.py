@@ -9,7 +9,7 @@ if not os.path.exists("images"):
     os.makedirs("images")
 
 # Load dataset
-df = pd.read_csv("scripts/breast-cancer.csv")
+df = pd.read_csv("data/breast-cancer.csv")
 
 # Encode target for plotting
 df['diagnosis_encoded'] = df['diagnosis'].map({'M': 1, 'B': 0})
