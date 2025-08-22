@@ -45,3 +45,7 @@ dist/
 __pycache__/
 *.pyc
 
+models/
+data/
+__pycache__/
+*.pyc
