@@ -145,20 +145,25 @@ A multi-feature comparison showing clear clustering of benign vs malignant tumor
 
 
 
-## 🤖 Modeling Results  
-
-The following models were trained and evaluated:  
-
-| Model                | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
-|-----------------------|----------|-----------|--------|----------|---------|
-| Logistic Regression   | 95%      | 94%       | 96%    | 95%      | 0.97    |
-| Random Forest         | 96%      | 95%       | 97%    | 96%      | 0.98    |
-| SVM                   | 94%      | 93%       | 95%    | 94%      | 0.96    |
-| K-Nearest Neighbors   | 93%      | 92%       | 94%    | 93%      | 0.95    |  
-
-✅ **Best Model:** Random Forest — robust performance with balanced precision and recall.  
 
 
+## 🤖 Modeling Results
+
+All models were trained and evaluated. Key metrics:
+
+| Model                | Accuracy | Precision | Recall | F1-Score |
+|----------------------|---------|-----------|--------|----------|
+| SVC (Linear Kernel)  | **98.2%** | **1.0**   | **0.953** | **0.976** |
+| SVC (RBF Kernel)     | 98.2%   | 1.0       | 0.953  | 0.976    |
+| Random Forest        | 97.4%   | 1.0       | 0.930  | 0.964    |
+| K-Nearest Neighbors  | 95.6%   | 0.952     | 0.930  | 0.941    |
+| GaussianNB           | 96.5%   | 0.976     | 0.930  | 0.952    |
+| Decision Tree        | 91.2–92.9% | 0.867–0.927 | 0.884–0.907 | 0.886–0.905 |
+
+✅ **Best Model:** `SVC (Linear Kernel)` — highest **recall and F1-score**, critical for cancer detection.  
+
+> Precision = 1.0 → no false positives  
+> Recall = 0.953 → very few false negatives  
 
 
 
@@ -166,13 +171,27 @@ The following models were trained and evaluated:
 
 
 
-## 🔬 Methodology  
 
-1. **Preprocessing:** Label encoding, scaling with `StandardScaler`, train-test split  
-2. **EDA:** Visualizations, statistical summary, feature correlations  
-3. **Modeling:** Logistic Regression, Random Forest, SVM, KNN  
-4. **Evaluation:** Metrics and ROC-AUC for model comparison  
-5. **Structure:** Scripts, images, and documentation for clarity and reproducibility  
+
+
+
+## 🚀 How to Run the Project
+
+```bash
+# 1. Clone repo
+git clone https://github.com/balajiabcd/Breast-Cancer-Detection.git
+cd Breast-Cancer-Detection
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run main pipeline
+python main.py
+
+# 4. Run all tests
+pytest -v 
+
+
 
 
 
