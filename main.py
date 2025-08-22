@@ -14,4 +14,5 @@ if __name__ == "__main__":
 
     # Train and evaluate model
     rf = RandomForestClassifier(n_estimators=100, random_state=42)
-    train_and_evaluate(rf, X_train, X_test, y_train, y_test)
+    train_and_evaluate("rf", rf, X_train, X_test, y_train, y_test)
+
