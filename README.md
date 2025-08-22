@@ -123,6 +123,7 @@ Malignant tumors generally have larger **radius**, **perimeter**, and **area**. 
 
 ### 🔹 Feature Correlation  
 Certain features are highly correlated. The heatmap helps identify redundant variables for possible feature reduction (e.g., PCA):  
+
 ![](images/correlation_heatmap.png)  
 
 
