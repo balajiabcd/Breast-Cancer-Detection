@@ -1,6 +1,6 @@
 import unittest
-from data_utils import load_data, preprocess_data
-from model import train_and_evaluate
+from src.data_utils import load_data, preprocess_data
+from src.model import train_and_evaluate
 from sklearn.linear_model import LogisticRegression
 
 class TestModel(unittest.TestCase):

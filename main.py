@@ -16,3 +16,5 @@ if __name__ == "__main__":
     rf = RandomForestClassifier(n_estimators=100, random_state=42)
     train_and_evaluate("rf", rf, X_train, X_test, y_train, y_test)
 
+    print("hello world")
+
