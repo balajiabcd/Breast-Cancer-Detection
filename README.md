@@ -12,6 +12,29 @@ It is designed as a **portfolio project** to showcase practical knowledge of **D
 
 
 
+## 🗂️ Project Structure
+
+<details>
+<summary>Click to expand</summary>
+```
+Breast-Cancer-Detection/
+├─ images/                         # All figures used in README and notebooks
+├─ notebooks/                      # Exploratory analysis / experiments
+├─ src/                            # Reusable Python modules
+├─ tests/                          # Unit tests (pytest)
+├─ main.py                         # Simple training / evaluation entry point
+├─ README.md                       # This file
+├─ requirements.txt                # Python deps (pin for reproducibility)
+├─ pytest.ini                      # pytest config (pythonpath, testpaths)
+└─ .gitignore
+```
+</details>
+
+
+
+
+
+
 
 ## 💡 Motivation
 
@@ -60,6 +83,21 @@ Data sonsists of 569 patients diagnosis results, test data. Out of these 212 pat
 - Visualize feature importance and decision boundaries  
 - Organize the project into a **production-ready structure** with scripts, tests, and documentation  
 - Showcase **best practices** for GitHub portfolio projects  
+
+
+
+
+
+
+
+
+## 📌 Highlights
+
+* End‑to‑end pipeline with **LogReg, SVM, RF, KNN, GNB, DT**
+* Clear EDA with ready‑to‑use plots (see below)
+* Reproducible environment + tests (`pytest`)
+* Results table + best model summary
+* Extensible: ready for Streamlit/Flask deployment
 
 
 
