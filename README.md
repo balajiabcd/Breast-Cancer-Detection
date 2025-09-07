@@ -16,6 +16,7 @@ It is designed as a **portfolio project** to showcase practical knowledge of **D
 
 <details>
 <summary>Click to expand</summary>
+
 ```
 Breast-Cancer-Detection/
 ├─ images/                         # All figures used in README and notebooks
@@ -28,7 +29,10 @@ Breast-Cancer-Detection/
 ├─ pytest.ini                      # pytest config (pythonpath, testpaths)
 └─ .gitignore
 ```
+
 </details>
+
+
 
 
 
